@@ -120,12 +120,13 @@
     text-align: center;
     color: #f4b400;
   }
- .footer {
+.card-footer {
     text-align: center;
-    padding: 15px;
-    margin-top: 20px;
-    color: #f4b400;
-    font-size: 14px;
-    background-color: #222;
-    border-radius: 8px;
+    /* padding: 15px; */
+    margin-top: 21px;
+    color: #846204;
+    font-size: 19px;
+    /* color: #222; */
+    border-radius: 9px;
 }
+
