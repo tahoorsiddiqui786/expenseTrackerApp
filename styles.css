@@ -8,6 +8,7 @@
     font-family: Arial, sans-serif;
     background-image: linear-gradient(112.3deg, rgba(252, 222, 28, 1) 23%, rgba(202, 178, 22, 1) 70.2%);
     display: flex;
+    /* flex-direction: column; */
     align-items: center;
     justify-content: center;
     min-height: 100vh;
@@ -120,13 +121,4 @@
     text-align: center;
     color: #f4b400;
   }
-.card-footer {
-    text-align: center;
-    /* padding: 15px; */
-    margin-top: 21px;
-    color: #846204;
-    font-size: 19px;
-    /* color: #222; */
-    border-radius: 9px;
-}
-
+  
