@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-image: linear-gradient(112.3deg, rgba(252, 222, 28, 1) 23%, rgba(202, 178, 22, 1) 70.2%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+  }
+  
+  .container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .card {
+    height: auto;
+    width: 90%;
+    max-width: 500px;
+    background-color: black;
+    color: white;
+    font-style: italic;
+    border-radius: 19px;
+    padding: 23px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card-items {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+  }
+  
+  h1 {
+    font-size: 2.7rem;
+    text-align: center;
+    margin-bottom: 10px;
+    color: #f4b400;
+  }
+  
+  h2 {
+    font-size: 1.8rem;
+    margin-top: 20px;
+    color: #f4b400;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+  }
+  
+  input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+  }
+  
+  button[type="submit"] {
+    background-color: #f4b400;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    padding: 10px;
+    cursor: pointer;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #e3a500;
+    transform: scale(1.05);
+  }
+  
+  #expense-list {
+    list-style-type: none;
+    margin: 20px 0;
+    padding: 0;
+  }
+  
+  .expense-item {
+    display: flex;
+    justify-content: space-between;
+    background-color: #333;
+    color: white;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    font-size: 16px;
+  }
+  
+  .delete-button {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .delete-button:hover {
+    background-color: #d32f2f;
+  }
+  
+  #total {
+    margin-top: 20px;
+    font-size: 1.5rem;
+    text-align: center;
+    color: #f4b400;
+  }
+  
