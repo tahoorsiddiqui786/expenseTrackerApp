@@ -120,4 +120,10 @@
     text-align: center;
     color: #f4b400;
   }
-  
+  footer {
+  background-color: #000; /* Black background */
+  color: #fff; /* White text */
+  padding: 21px 0; 
+  text-align: center; /* Center-align the text */
+  font-family: Arial, sans-serif; /* Use a clean font */
+}
